@@ -20,4 +20,8 @@ public class CoreConstant {
     public void setAge(int age) {
         this.age = age;
     }
+    
+    public void cc(){
+        int a = 0;
+    }
 }
