@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mobile-core-dto/src/main/main.iml" filepath="$PROJECT_DIR$/mobile-core-dto/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-api-test/mobile-api-test.iml" filepath="$PROJECT_DIR$/mobile-api-test/mobile-api-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-core-commons/mobile-core-commons.iml" filepath="$PROJECT_DIR$/mobile-core-commons/mobile-core-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-core-dao/mobile-core-dao.iml" filepath="$PROJECT_DIR$/mobile-core-dao/mobile-core-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-core-daoimpl/mobile-core-daoimpl.iml" filepath="$PROJECT_DIR$/mobile-core-daoimpl/mobile-core-daoimpl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-core-dto/mobile-core-dto.iml" filepath="$PROJECT_DIR$/mobile-core-dto/mobile-core-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-core-utils/mobile-core-utils.iml" filepath="$PROJECT_DIR$/mobile-core-utils/mobile-core-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-online.iml" filepath="$PROJECT_DIR$/mobile-online.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-web/mobile-web.iml" filepath="$PROJECT_DIR$/mobile-web/mobile-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-web-logic/mobile-web-logic.iml" filepath="$PROJECT_DIR$/mobile-web-logic/mobile-web-logic.iml" />
+    </modules>
+  </component>
+</project>

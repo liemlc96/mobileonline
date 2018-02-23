@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mobile-core-dao-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mobile-core-dao/target/mobile-core-dao-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

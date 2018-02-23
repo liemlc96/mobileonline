@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mobile-api-test" />
+        <module name="mobile-core-commons" />
+        <module name="mobile-core-dao" />
+        <module name="mobile-core-daoimpl" />
+        <module name="mobile-core-dto" />
+        <module name="mobile-core-utils" />
+        <module name="mobile-web" />
+        <module name="mobile-web-logic" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mobile-api-test" target="1.5" />
+      <module name="mobile-core-cm" target="1.5" />
+      <module name="mobile-core-common" target="1.5" />
+      <module name="mobile-core-commons" target="1.5" />
+      <module name="mobile-core-dao" target="1.5" />
+      <module name="mobile-core-daoimpl" target="1.5" />
+      <module name="mobile-core-dto" target="1.5" />
+      <module name="mobile-core-utils" target="1.5" />
+      <module name="mobile-online" target="1.5" />
+      <module name="mobile-web" target="1.5" />
+      <module name="mobile-web-logic" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

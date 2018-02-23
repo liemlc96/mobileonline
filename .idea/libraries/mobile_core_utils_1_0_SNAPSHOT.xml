@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mobile-core-utils-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mobile-core-utils/target/mobile-core-utils-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
