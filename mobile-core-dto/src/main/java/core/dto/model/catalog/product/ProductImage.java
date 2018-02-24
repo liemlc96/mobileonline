@@ -1,7 +1,9 @@
 package core.dto.model.catalog.product;
 
+/**
+ * @author DucBa
+ */
 public class ProductImage {
-
     private long id;
     private String url;
     private String alter;

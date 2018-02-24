@@ -12,5 +12,8 @@
 
     <artifactId>mobile-core-commons</artifactId>
 
+    <dependencies>
+
+    </dependencies>
 
 </project>

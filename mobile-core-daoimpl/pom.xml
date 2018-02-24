@@ -12,5 +12,14 @@
 
     <artifactId>mobile-core-daoimpl</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>ptit.ecommerce.team08</groupId>
+            <artifactId>mobile-core-dao</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
