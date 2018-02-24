@@ -10,15 +10,16 @@ import java.util.Date;
 public class ProductReview {
 
     private long id;
-    private float reviewRating;
+    private int reviewRating;
     private Date reviewDate;
     private String reviewContent;
     private Customer customer;
+    private Product product;
 
     public ProductReview() {
     }
 
-    public ProductReview(long id, float reviewRating, Date reviewDate, String reviewContent, Customer customer) {
+    public ProductReview(long id, int reviewRating, Date reviewDate, String reviewContent, Customer customer) {
         this.id = id;
         this.reviewRating = reviewRating;
         this.reviewDate = reviewDate;
@@ -34,11 +35,11 @@ public class ProductReview {
         this.id = id;
     }
 
-    public float getReviewRating() {
+    public int getReviewRating() {
         return reviewRating;
     }
 
-    public void setReviewRating(float reviewRating) {
+    public void setReviewRating(int reviewRating) {
         this.reviewRating = reviewRating;
     }
 

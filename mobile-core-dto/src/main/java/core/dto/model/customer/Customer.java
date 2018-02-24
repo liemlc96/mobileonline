@@ -9,13 +9,13 @@ import java.util.Date;
  */
 public class Customer extends Person {
     private long id;
-    private CustomerAccount account;
+    private Account account;
 
     public Customer() {
     }
 
     public Customer(String firstName, String middleName, String lastName, Address address,
-                    Gender gender, Date birthDay, long id, CustomerAccount account) {
+                    int gender, Date birthDay, long id, Account account) {
         super(firstName, middleName, lastName, address, gender, birthDay);
         this.id = id;
         this.account = account;
@@ -29,11 +29,11 @@ public class Customer extends Person {
         this.id = id;
     }
 
-    public CustomerAccount getAccount() {
+    public Account getAccount() {
         return account;
     }
 
-    public void setAccount(CustomerAccount account) {
+    public void setAccount(Account account) {
         this.account = account;
     }
 }

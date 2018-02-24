@@ -1,9 +1,8 @@
 package core.dto.model.order;
 
-import core.dto.model.common.Address;
 import core.dto.model.customer.Customer;
-import core.dto.model.payment.PaymentType;
 import core.dto.model.shipping.Shipping;
+import sun.dc.pr.PRError;
 
 import java.util.Date;
 
@@ -13,25 +12,27 @@ import java.util.Date;
  */
 public class Order {
     private long id;
-    private Customer customer;
     private Date dateOrderd;
     private Date lastModified;
-    private PaymentType paymentType;
-    private OrderStatus status;
+    private int paymentType;
+    private int status;
+    private Coupon coupon;
     private Shipping shipping;
+    private Customer customer;
 
     public Order() {
     }
 
-    public Order(long id, Customer customer, Date dateOrderd, Date lastModified,
-                 PaymentType paymentType, OrderStatus status, Shipping shipping) {
+    public Order(long id, Date dateOrderd, Date lastModified, int paymentType,
+                 int status, Coupon coupon, Shipping shipping, Customer customer) {
         this.id = id;
-        this.customer = customer;
         this.dateOrderd = dateOrderd;
         this.lastModified = lastModified;
         this.paymentType = paymentType;
         this.status = status;
+        this.coupon = coupon;
         this.shipping = shipping;
+        this.customer = customer;
     }
 
     public long getId() {
@@ -66,19 +67,19 @@ public class Order {
         this.lastModified = lastModified;
     }
 
-    public PaymentType getPaymentType() {
+    public int getPaymentType() {
         return paymentType;
     }
 
-    public void setPaymentType(PaymentType paymentType) {
+    public void setPaymentType(int paymentType) {
         this.paymentType = paymentType;
     }
 
-    public OrderStatus getStatus() {
+    public int getStatus() {
         return status;
     }
 
-    public void setStatus(OrderStatus status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 

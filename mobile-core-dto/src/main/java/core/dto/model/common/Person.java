@@ -10,14 +10,14 @@ public class Person {
     private String middleName;
     private String lastName;
     private Address address;
-    private Gender gender;
+    private int gender;
     private Date birthDay;
     private String phone;
 
     public Person() {
     }
 
-    public Person(String firstName, String middleName, String lastName, Address address, Gender gender, Date birthDay) {
+    public Person(String firstName, String middleName, String lastName, Address address, int gender, Date birthDay) {
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
@@ -58,11 +58,11 @@ public class Person {
         this.address = address;
     }
 
-    public Gender getGender() {
+    public int getGender() {
         return gender;
     }
 
-    public void setGender(Gender gender) {
+    public void setGender(int gender) {
         this.gender = gender;
     }
 

@@ -5,8 +5,8 @@ package core.dto.model.catalog.product;
  */
 public class AttributeValue {
     private long id;
-    private Attribute attribute;
     private String name;
+    private Attribute attribute;
 
     public AttributeValue() {
     }
