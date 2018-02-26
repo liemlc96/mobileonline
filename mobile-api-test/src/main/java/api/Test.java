@@ -11,6 +11,8 @@ public class Test {
         CustomerDao customerDao = daoFactory.getCustomerDao();
         customerDao.addCustomer(null);
         /*sjdbfgjsdg*/
+        //t mới thêm cái này nè
+        //hahaha
     }
 
 }
