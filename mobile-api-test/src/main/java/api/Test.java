@@ -10,7 +10,7 @@ public class Test {
         DAOFactory daoFactory = DAOFactory.getDAOFactory(DAOFactory.MYSQL);
         CustomerDao customerDao = daoFactory.getCustomerDao();
         customerDao.addCustomer(null);
-        /**/
+        /*sjdbfgjsdg*/
     }
 
 }
