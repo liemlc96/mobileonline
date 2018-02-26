@@ -3,6 +3,7 @@
   <component name="dataSourceStorageLocal">
     <data-source name="@localhost" uuid="92316a6b-5af9-407f-8f82-42d0ee21d5fa">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:test</introspection-schemas>
     </data-source>
   </component>
 </project>
