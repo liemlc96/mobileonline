@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="61552fcf-21ea-4ada-8d16-35dfe72cf293" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mobile-api-test/src/main/java/api/Test.java" afterPath="$PROJECT_DIR$/mobile-api-test/src/main/java/api/Test.java" />
+      <change beforePath="$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/CoreConstant.java" afterPath="$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/CoreConstant.java" />
     </list>
     <ignored path="$PROJECT_DIR$/mobile-web-logic/target/" />
     <ignored path="$PROJECT_DIR$/mobile-core-utils/target/" />
@@ -23,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile-api-test/src/main/java/api/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CoreConstant.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/CoreConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -47,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/PaymentConstant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,6 +109,7 @@
       <list>
         <option value="$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/PaymentConstant.java" />
         <option value="$PROJECT_DIR$/mobile-api-test/src/main/java/api/Test.java" />
+        <option value="$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/CoreConstant.java" />
       </list>
     </option>
   </component>
@@ -339,7 +350,7 @@
       <updated>1519658952428</updated>
       <workItem from="1519658955595" duration="1667000" />
       <workItem from="1519662029153" duration="848000" />
-      <workItem from="1519745055854" duration="74000" />
+      <workItem from="1519745055854" duration="147000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1519662140211</created>
@@ -362,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519662542688</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1519745148460</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1519745148460</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2698000" />
+    <option name="totallyTimeSpent" value="2771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -529,14 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/PaymentConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile-core-dto/src/main/java/core/dto/model/catalog/category/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -547,8 +557,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile-api-test/src/main/java/api/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/PaymentConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile-core-commons/src/main/java/core/commons/constant/CoreConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding />
         </state>
       </provider>
