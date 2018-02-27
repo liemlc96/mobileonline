@@ -156,6 +156,17 @@
             <path>
               <item name="mobileonline" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobileonline" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileonline" type="462c0819:PsiDirectoryNode" />
+              <item name="ApplicationFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="document" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileonline" type="462c0819:PsiDirectoryNode" />
               <item name="mobile-core-commons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,7 +325,7 @@
       <updated>1519658952428</updated>
       <workItem from="1519658955595" duration="1667000" />
       <workItem from="1519662029153" duration="848000" />
-      <workItem from="1519745055854" duration="251000" />
+      <workItem from="1519745055854" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1519662140211</created>
@@ -351,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519745215163</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit">
+      <created>1519745331541</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1519745331541</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2875000" />
+    <option name="totallyTimeSpent" value="3375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
